@@ -34,13 +34,13 @@ export default {
     window.addEventListener('beforeunload', e => this.beforeunloadHandler(e))
     window.addEventListener('unload', e => this.unloadHandler(e))
   },
+  destroyed() {
+    window.removeEventListener('beforeunload', e => this.beforeunloadHandler(e))
+    window.removeEventListener('unload', e => this.unloadHandler(e))
+  },
   methods:{
     beforeunloadHandler(){
       this._beforeUnload_time=new Date().getTime();
-    },
-    destroyed() {
-      window.removeEventListener('beforeunload', e => this.beforeunloadHandler(e))
-      window.removeEventListener('unload', e => this.unloadHandler(e))
     },
     async unloadHandler(e){
       //判断是窗口关闭还是刷新
