@@ -5,6 +5,8 @@ import com.kcx.mapper.OrderMapper;
 import com.kcx.pojo.House;
 import com.kcx.pojo.Order;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.interceptor.TransactionAspectSupport;
 import org.springframework.web.bind.annotation.*;
@@ -34,7 +36,7 @@ public class OrderController {
 
     /*添加订单*/
     @PostMapping("/addOrder")
-    @Transactional  //事务的注解
+    @Transactional(readOnly = false,timeout = -1,propagation = Propagation.REQUIRED,isolation = Isolation.REPEATABLE_READ)  //事务的注解
     public String addOrder(@RequestBody Order order){
         //自己不能订自己的房子
         if(order.getUsername().equals(order.getCustomerId())){

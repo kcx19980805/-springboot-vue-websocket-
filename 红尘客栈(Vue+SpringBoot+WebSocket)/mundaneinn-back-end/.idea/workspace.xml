@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29719ac-7b32-40b1-bbb8-37bc6536c416" name="默认更改列表" comment="" />
+    <list default="true" id="b29719ac-7b32-40b1-bbb8-37bc6536c416" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kcx/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kcx/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kcx/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kcx/controller/OrderController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -30,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1lJyJCtti7nR5tsix6qFlb7gamf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,10 +48,12 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mundaneinn-front-end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -247,10 +257,31 @@
       <workItem from="1610525516660" duration="162000" />
       <workItem from="1610851396898" duration="12000" />
       <workItem from="1610958863791" duration="4460000" />
+      <workItem from="1611049595535" duration="270000" />
+      <workItem from="1611050607304" duration="94000" />
+      <workItem from="1611136919190" duration="518000" />
+      <workItem from="1611297563404" duration="81000" />
+      <workItem from="1611297666297" duration="80000" />
+      <workItem from="1612951003210" duration="3071000" />
+      <workItem from="1612959803931" duration="8000" />
+      <workItem from="1613704491054" duration="1234000" />
+      <workItem from="1613718839203" duration="409000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
